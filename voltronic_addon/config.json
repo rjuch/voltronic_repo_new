@@ -17,5 +17,5 @@
      "PAI_CONFIG_FILE": "/data/options.json"
   },
   "services": ["mqtt:want"],
-  "image": "bushrangers/ha-voltronic-mqtt"
+  "image": "rjuch/voltronic_addon"
 }
