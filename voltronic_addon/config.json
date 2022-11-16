@@ -1,6 +1,6 @@
 {
   "name": "Voltronic inverter wrapper",
-  "version": "1",
+  "version": "latest",
   "slug": "voltronic_addon",
   "description": "Voltronic addon wrapper",
   "uart": true,
