@@ -1,10 +1,10 @@
 {
-  "name": "Voltronic inverter wrapper",
+  "name": "bushrangers ha-voltronic-mqtt wrapper",
   "version": "latest",
-  "slug": "voltronic_addon",
+  "slug": "voltronic_addon_new",
   "description": "Voltronic addon wrapper",
   "uart": true,
-  "url": "https://github.com/rjuch/voltronic_addon",
+  "url": "https://github.com/rjuch/voltronic_addon_new",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
@@ -13,9 +13,6 @@
     "share:rw",
     "config:ro"
   ],
-  "environment": {
-     "PAI_CONFIG_FILE": "/data/options.json"
-  },
   "services": ["mqtt:want"],
-  "image": "rjuch/voltronic_addon"
+  "image": "rjuch/voltronic_addon_new"
 }
